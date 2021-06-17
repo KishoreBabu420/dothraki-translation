@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+    <div class="overlay"></div>
     <div class="container">
       <div class="heading">
         <h1>Translate English to Dothraki</h1>
@@ -20,9 +21,10 @@
           class="input"
           placeholder="Enter text to translate"
         ></textarea>
-
-        <div class="output">
-          <h2></h2>
+        <button id="btn-translate">Translate</button>
+        <div class="result">
+          <h2>Dothraki is below</h2>
+          <div class="output" id="output"></div>
         </div>
       </div>
     </div>
